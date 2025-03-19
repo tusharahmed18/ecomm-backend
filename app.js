@@ -6,7 +6,7 @@ const cors = require('cors');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const morgan=require('morgan');
-const {Product}= require('./model/Product');
+const {Product}= require('./model/product');
 const {Cart}=require('./model/Cart');
 
 app.use(express.json());
